@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "YumAI",
+    "slug": "recipe-app",
+    "version": "1.0.0",
+    "backgroundColor": "#FFFBF0",
+    "primaryColor": "#EA580C",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "name": "YumAI",
+      "description": "AI-powered recipe and meal planning app",
+      "themeColor": "#16A34A",
+      "lang": "en"
+    },
+    "android": {
+      "package": "com.redsitesoftware.recipeApp"
+    },
+    "ios": {
+      "bundleIdentifier": "com.redsitesoftware.recipeApp"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "319665c5-2f75-4ec8-959d-c4dc771ac2e7"
+      }
+    },
+    "owner": "zx10r06",
+    "description": "AI-powered recipe and meal planning app"
+  }
+}
